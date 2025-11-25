@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/john/Documents/Test_Project/Proj01
+CMAKE_SOURCE_DIR = /Users/john/Documents/Project/Proj01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/john/Documents/Test_Project/Proj01/build
+CMAKE_BINARY_DIR = /Users/john/Documents/Project/Proj01/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/proj01.dir/clean
 CMakeFiles/proj01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Test_Project/Proj01/build/CMakeFiles --progress-num=1,2 "Built target proj01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Project/Proj01/build/CMakeFiles --progress-num=1,2 "Built target proj01"
 .PHONY : CMakeFiles/proj01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/proj01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Test_Project/Proj01/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Test_Project/Proj01/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles 0
 .PHONY : CMakeFiles/proj01.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ proj01: CMakeFiles/proj01.dir/rule
 # codegen rule for target.
 CMakeFiles/proj01.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Test_Project/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target proj01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Project/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target proj01"
 .PHONY : CMakeFiles/proj01.dir/codegen
 
 # clean rule for target.

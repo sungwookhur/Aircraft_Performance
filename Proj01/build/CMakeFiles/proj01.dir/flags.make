@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/john/Documents/Test_Project/Proj01/src
+CXX_INCLUDES = -I/Users/john/Documents/Project/Proj01/src
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64
 
