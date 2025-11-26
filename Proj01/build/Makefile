@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/john/Documents/Project/Proj01
+CMAKE_SOURCE_DIR = /Users/john/Documents/Aircraft_Performance/Proj01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/john/Documents/Project/Proj01/build
+CMAKE_BINARY_DIR = /Users/john/Documents/Aircraft_Performance/Proj01/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles /Users/john/Documents/Project/Proj01/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles /Users/john/Documents/Aircraft_Performance/Proj01/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named proj01
+# Target rules for targets named proj01_lib
 
 # Build rule for target.
-proj01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj01
-.PHONY : proj01
+proj01_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj01_lib
+.PHONY : proj01_lib
 
 # fast build rule for target.
-proj01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/build
-.PHONY : proj01/fast
+proj01_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/build
+.PHONY : proj01_lib/fast
 
 src/proj01.o: src/proj01.cpp.o
 .PHONY : src/proj01.o
 
 # target to build an object file
 src/proj01.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/src/proj01.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.o
 .PHONY : src/proj01.cpp.o
 
 src/proj01.i: src/proj01.cpp.i
@@ -142,7 +142,7 @@ src/proj01.i: src/proj01.cpp.i
 
 # target to preprocess a source file
 src/proj01.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/src/proj01.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.i
 .PHONY : src/proj01.cpp.i
 
 src/proj01.s: src/proj01.cpp.s
@@ -150,7 +150,7 @@ src/proj01.s: src/proj01.cpp.s
 
 # target to generate assembly for a file
 src/proj01.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/src/proj01.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.s
 .PHONY : src/proj01.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... proj01"
+	@echo "... proj01_lib"
 	@echo "... src/proj01.o"
 	@echo "... src/proj01.i"
 	@echo "... src/proj01.s"

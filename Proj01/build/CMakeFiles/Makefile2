@@ -54,20 +54,20 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/john/Documents/Project/Proj01
+CMAKE_SOURCE_DIR = /Users/john/Documents/Aircraft_Performance/Proj01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/john/Documents/Project/Proj01/build
+CMAKE_BINARY_DIR = /Users/john/Documents/Aircraft_Performance/Proj01/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/proj01.dir/all
+all: CMakeFiles/proj01_lib.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/proj01.dir/codegen
+codegen: CMakeFiles/proj01_lib.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/proj01.dir/clean
+clean: CMakeFiles/proj01_lib.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/proj01.dir
+# Target rules for target CMakeFiles/proj01_lib.dir
 
 # All Build rule for target.
-CMakeFiles/proj01.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Project/Proj01/build/CMakeFiles --progress-num=1,2 "Built target proj01"
-.PHONY : CMakeFiles/proj01.dir/all
+CMakeFiles/proj01_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Built target proj01_lib"
+.PHONY : CMakeFiles/proj01_lib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/proj01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Project/Proj01/build/CMakeFiles 0
-.PHONY : CMakeFiles/proj01.dir/rule
+CMakeFiles/proj01_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj01_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles 0
+.PHONY : CMakeFiles/proj01_lib.dir/rule
 
 # Convenience name for target.
-proj01: CMakeFiles/proj01.dir/rule
-.PHONY : proj01
+proj01_lib: CMakeFiles/proj01_lib.dir/rule
+.PHONY : proj01_lib
 
 # codegen rule for target.
-CMakeFiles/proj01.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Project/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target proj01"
-.PHONY : CMakeFiles/proj01.dir/codegen
+CMakeFiles/proj01_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target proj01_lib"
+.PHONY : CMakeFiles/proj01_lib.dir/codegen
 
 # clean rule for target.
-CMakeFiles/proj01.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01.dir/build.make CMakeFiles/proj01.dir/clean
-.PHONY : CMakeFiles/proj01.dir/clean
+CMakeFiles/proj01_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/clean
+.PHONY : CMakeFiles/proj01_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

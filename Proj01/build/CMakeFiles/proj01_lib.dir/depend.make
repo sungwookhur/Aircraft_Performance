@@ -1,2 +1,2 @@
-# Empty dependencies file for proj01.
+# Empty dependencies file for proj01_lib.
 # This may be replaced when dependencies are built.
