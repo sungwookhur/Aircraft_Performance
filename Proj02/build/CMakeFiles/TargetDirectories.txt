@@ -1,0 +1,3 @@
+/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles/Proj02.dir
+/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles/edit_cache.dir
+/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles/rebuild_cache.dir
