@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/john/Documents/Aircraft_Performance/Proj01/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/proj01_lib.dir/all
+all: CMakeFiles/app_lib.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/proj01_lib.dir/codegen
+codegen: CMakeFiles/app_lib.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/proj01_lib.dir/clean
+clean: CMakeFiles/app_lib.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/proj01_lib.dir
+# Target rules for target CMakeFiles/app_lib.dir
 
 # All Build rule for target.
-CMakeFiles/proj01_lib.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Built target proj01_lib"
-.PHONY : CMakeFiles/proj01_lib.dir/all
+CMakeFiles/app_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Built target app_lib"
+.PHONY : CMakeFiles/app_lib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/proj01_lib.dir/rule: cmake_check_build_system
+CMakeFiles/app_lib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj01_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles 0
-.PHONY : CMakeFiles/proj01_lib.dir/rule
+.PHONY : CMakeFiles/app_lib.dir/rule
 
 # Convenience name for target.
-proj01_lib: CMakeFiles/proj01_lib.dir/rule
-.PHONY : proj01_lib
+app_lib: CMakeFiles/app_lib.dir/rule
+.PHONY : app_lib
 
 # codegen rule for target.
-CMakeFiles/proj01_lib.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target proj01_lib"
-.PHONY : CMakeFiles/proj01_lib.dir/codegen
+CMakeFiles/app_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj01/build/CMakeFiles --progress-num=1,2 "Finished codegen for target app_lib"
+.PHONY : CMakeFiles/app_lib.dir/codegen
 
 # clean rule for target.
-CMakeFiles/proj01_lib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/clean
-.PHONY : CMakeFiles/proj01_lib.dir/clean
+CMakeFiles/app_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/clean
+.PHONY : CMakeFiles/app_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

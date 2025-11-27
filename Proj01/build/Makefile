@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named proj01_lib
+# Target rules for targets named app_lib
 
 # Build rule for target.
-proj01_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj01_lib
-.PHONY : proj01_lib
+app_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app_lib
+.PHONY : app_lib
 
 # fast build rule for target.
-proj01_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/build
-.PHONY : proj01_lib/fast
+app_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/build
+.PHONY : app_lib/fast
 
-src/proj01.o: src/proj01.cpp.o
-.PHONY : src/proj01.o
+src/class.o: src/class.cpp.o
+.PHONY : src/class.o
 
 # target to build an object file
-src/proj01.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.o
-.PHONY : src/proj01.cpp.o
+src/class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/src/class.cpp.o
+.PHONY : src/class.cpp.o
 
-src/proj01.i: src/proj01.cpp.i
-.PHONY : src/proj01.i
+src/class.i: src/class.cpp.i
+.PHONY : src/class.i
 
 # target to preprocess a source file
-src/proj01.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.i
-.PHONY : src/proj01.cpp.i
+src/class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/src/class.cpp.i
+.PHONY : src/class.cpp.i
 
-src/proj01.s: src/proj01.cpp.s
-.PHONY : src/proj01.s
+src/class.s: src/class.cpp.s
+.PHONY : src/class.s
 
 # target to generate assembly for a file
-src/proj01.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj01_lib.dir/build.make CMakeFiles/proj01_lib.dir/src/proj01.cpp.s
-.PHONY : src/proj01.cpp.s
+src/class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_lib.dir/build.make CMakeFiles/app_lib.dir/src/class.cpp.s
+.PHONY : src/class.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... proj01_lib"
-	@echo "... src/proj01.o"
-	@echo "... src/proj01.i"
-	@echo "... src/proj01.s"
+	@echo "... app_lib"
+	@echo "... src/class.o"
+	@echo "... src/class.i"
+	@echo "... src/class.s"
 .PHONY : help
 
 

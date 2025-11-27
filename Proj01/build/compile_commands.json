@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/john/Documents/Aircraft_Performance/Proj01/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/proj01_lib.dir/src/proj01.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj01/src/proj01.cpp",
-  "file": "/Users/john/Documents/Aircraft_Performance/Proj01/src/proj01.cpp",
-  "output": "CMakeFiles/proj01_lib.dir/src/proj01.cpp.o"
-}
-]

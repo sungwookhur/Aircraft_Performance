@@ -1,2 +1,0 @@
-/usr/bin/ar qc libproj01_lib.a CMakeFiles/proj01_lib.dir/src/proj01.cpp.o
-/usr/bin/ranlib libproj01_lib.a

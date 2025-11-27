@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/john/Documents/Aircraft_Performance/Proj02/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Proj02.dir/all
+all: CMakeFiles/app.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Proj02.dir/codegen
+codegen: CMakeFiles/app.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Proj02.dir/clean
+clean: CMakeFiles/app.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Proj02.dir
+# Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/Proj02.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles --progress-num=1,2 "Built target Proj02"
-.PHONY : CMakeFiles/Proj02.dir/all
+CMakeFiles/app.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles --progress-num=1,2 "Built target app"
+.PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Proj02.dir/rule: cmake_check_build_system
+CMakeFiles/app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Proj02.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles 0
-.PHONY : CMakeFiles/Proj02.dir/rule
+.PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
-Proj02: CMakeFiles/Proj02.dir/rule
-.PHONY : Proj02
+app: CMakeFiles/app.dir/rule
+.PHONY : app
 
 # codegen rule for target.
-CMakeFiles/Proj02.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Proj02"
-.PHONY : CMakeFiles/Proj02.dir/codegen
+CMakeFiles/app.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj02/build/CMakeFiles --progress-num=1,2 "Finished codegen for target app"
+.PHONY : CMakeFiles/app.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Proj02.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/clean
-.PHONY : CMakeFiles/Proj02.dir/clean
+CMakeFiles/app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
+.PHONY : CMakeFiles/app.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

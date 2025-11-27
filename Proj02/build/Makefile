@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Proj02
+# Target rules for targets named app
 
 # Build rule for target.
-Proj02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Proj02
-.PHONY : Proj02
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
+.PHONY : app
 
 # fast build rule for target.
-Proj02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/build
-.PHONY : Proj02/fast
+app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
 
-src/proj02.o: src/proj02.cpp.o
-.PHONY : src/proj02.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/proj02.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/src/proj02.cpp.o
-.PHONY : src/proj02.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/proj02.i: src/proj02.cpp.i
-.PHONY : src/proj02.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/proj02.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/src/proj02.cpp.i
-.PHONY : src/proj02.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/proj02.s: src/proj02.cpp.s
-.PHONY : src/proj02.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/proj02.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj02.dir/build.make CMakeFiles/Proj02.dir/src/proj02.cpp.s
-.PHONY : src/proj02.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Proj02"
-	@echo "... src/proj02.o"
-	@echo "... src/proj02.i"
-	@echo "... src/proj02.s"
+	@echo "... app"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

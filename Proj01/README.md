@@ -1,1 +1,1 @@
-test01: cmake library
+Proj01: class (only properties)
