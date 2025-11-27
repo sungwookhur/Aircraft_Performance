@@ -76,15 +76,15 @@ CMakeFiles/thread_app.dir/src/main.cpp.o: CMakeFiles/thread_app.dir/flags.make
 CMakeFiles/thread_app.dir/src/main.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp
 CMakeFiles/thread_app.dir/src/main.cpp.o: CMakeFiles/thread_app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thread_app.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/thread_app.dir/src/main.cpp.o -MF CMakeFiles/thread_app.dir/src/main.cpp.o.d -o CMakeFiles/thread_app.dir/src/main.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/thread_app.dir/src/main.cpp.o -MF CMakeFiles/thread_app.dir/src/main.cpp.o.d -o CMakeFiles/thread_app.dir/src/main.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp
 
 CMakeFiles/thread_app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/thread_app.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp > CMakeFiles/thread_app.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp > CMakeFiles/thread_app.dir/src/main.cpp.i
 
 CMakeFiles/thread_app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/thread_app.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp -o CMakeFiles/thread_app.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp -o CMakeFiles/thread_app.dir/src/main.cpp.s
 
 # Object files for target thread_app
 thread_app_OBJECTS = \

@@ -1,5 +1,5 @@
-CMakeFiles/thread_app.dir/src/main.cpp.o: \
-  /Users/john/Documents/Aircraft_Performance/Proj03/src/main.cpp \
+CMakeFiles/aircraft_sim.dir/src/main.cpp.o: \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -791,10 +791,21 @@ CMakeFiles/thread_app.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/AircraftParams.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/math/Vec3.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/AerodynamicSurface.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/State6DOF.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/ControlInput.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/ForcesMoments.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/env/Atmosphere.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Propulsion.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/env/Gravity.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/math/Rotation.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/math/Mat3.h \
+  /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.h
