@@ -1,1 +1,1 @@
-6DoF Simulation template
+Aircraft 6DoF Simulation Template

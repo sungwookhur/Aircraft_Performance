@@ -1,1 +1,1 @@
-cmake thread lib 
+cmake thread library 

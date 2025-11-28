@@ -1,1 +1,1 @@
-Proj01: class (only properties)
+cmake class (only properties)

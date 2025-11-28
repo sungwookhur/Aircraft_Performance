@@ -1,1 +1,1 @@
-Proj02: executable file
+cmake executable file
