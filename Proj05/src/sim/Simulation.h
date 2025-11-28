@@ -6,8 +6,10 @@ namespace aero::sim {
 
 class Simulation {
 public:
-    explicit Simulation(aero::dynamics::SixDofEOM eom)
-        : eom_(std::move(eom)) {}
+    // explicit Simulation(aero::dynamics::SixDofEOM eom)
+    //     : eom_(std::move(eom)) {}
+    explicit Simulation(const aero::dynamics::SixDofEOM& eom)
+        : eom_(eom) {}
 
     void step(double dt);
 
