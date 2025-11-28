@@ -76,99 +76,99 @@ CMakeFiles/aircraft_sim.dir/src/main.cpp.o: CMakeFiles/aircraft_sim.dir/flags.ma
 CMakeFiles/aircraft_sim.dir/src/main.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp
 CMakeFiles/aircraft_sim.dir/src/main.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aircraft_sim.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/main.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/main.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/main.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/main.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/main.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/main.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp
 
 CMakeFiles/aircraft_sim.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp > CMakeFiles/aircraft_sim.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp > CMakeFiles/aircraft_sim.dir/src/main.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp -o CMakeFiles/aircraft_sim.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/main.cpp -o CMakeFiles/aircraft_sim.dir/src/main.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp
 CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp
 
 CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp > CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp > CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp -o CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/dynamics/SixDofEOM.cpp -o CMakeFiles/aircraft_sim.dir/src/dynamics/SixDofEOM.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp
 CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp
 
 CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp > CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp > CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Aircraft.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Aircraft.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp
 CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp
 
 CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp > CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp > CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Wing.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Wing.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp
 CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp
 
 CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp > CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp > CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Tail.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Tail.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp
 CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp
 
 CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp > CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp > CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/model/Fuselage.cpp -o CMakeFiles/aircraft_sim.dir/src/model/Fuselage.cpp.s
 
 CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o: CMakeFiles/aircraft_sim.dir/flags.make
 CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o: /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp
 CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o: CMakeFiles/aircraft_sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/Documents/Aircraft_Performance/Proj05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o -MF CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o.d -o CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.o -c /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp
 
 CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp > CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp > CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.i
 
 CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp -o CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/Documents/Aircraft_Performance/Proj05/src/sim/Simulation.cpp -o CMakeFiles/aircraft_sim.dir/src/sim/Simulation.cpp.s
 
 # Object files for target aircraft_sim
 aircraft_sim_OBJECTS = \
