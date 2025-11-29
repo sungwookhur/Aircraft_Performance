@@ -31,6 +31,8 @@
         "string_view": "cpp",
         "typeinfo": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp"
     }
 }
